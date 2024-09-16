@@ -1,9 +1,15 @@
-import './App.css';
+import Navigation from "./Navigation/Nav"
+import Product from "./Products/Product"
+import Recommend from "./Recommend/Recommend"
 
 function App() {
   return (
-    <h1>Hello</h1>
-  );
+    <>
+      <Navigation/>
+      <Product/>
+      <Recommend/>
+    </>
+  )
 }
 
 export default App;
